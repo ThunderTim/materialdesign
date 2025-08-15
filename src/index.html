@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Material Design 3 Starter</title>
+
+  <!-- Base & Tokens -->
+  <link rel="stylesheet" href="./styles/base.css">
+  <link rel="stylesheet" href="./styles/tokens.css">
+  <link rel="stylesheet" href="./styles/theme.light.css">
+  <link rel="stylesheet" href="./styles/components.css">
+
+  <!-- Material Web components (via CDN) -->
+  <script type="module">
+    import 'https://esm.run/@material/web/button/filled-button.js';
+    import 'https://esm.run/@material/web/textfield/outlined-text-field.js';
+  </script>
+</head>
+<body>
+  <main class="container stack">
+    <h1>Hello Material 3</h1>
+    <p>This is a colorful, minimal Material Design 3 starter page.</p>
+
+    <md-outlined-text-field label="Your name"></md-outlined-text-field>
+    <md-filled-button id="greet-btn">Greet</md-filled-button>
+
+    <div id="greeting" style="font-weight: bold; font-size: 1.2rem;"></div>
+  </main>
+
+  <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>

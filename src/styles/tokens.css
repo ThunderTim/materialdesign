@@ -1,0 +1,18 @@
+:root {
+  /* Brand key colors (bright + minimal) */
+  --md-sys-color-primary: #7C3AED;
+  --md-sys-color-secondary: #10B981;
+  --md-sys-color-tertiary: #F59E0B;
+
+  /* Text colors for contrast */
+  --md-sys-color-on-primary: white;
+  --md-sys-color-on-secondary: white;
+  --md-sys-color-on-tertiary: black;
+
+  /* Typography */
+  --md-ref-typeface-brand: 'Inter', system-ui, sans-serif;
+  --md-ref-typeface-plain: system-ui, -apple-system, sans-serif;
+
+  /* Shape */
+  --md-filled-button-container-shape: 20px;
+}
